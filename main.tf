@@ -10,8 +10,8 @@ terraform {
 # Configure the AWS Provider
 provider "aws" {
   region     = "us-east-1"
-  access_key = "AKIAXQE74HCJBCO7IL7F"
-  secret_key = "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"
+  access_key = ""
+  secret_key = ""
 }
 
 module "website_s3_bucket" {
